@@ -51,6 +51,9 @@ html {
 .text-container {
     margin: 20px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .title {
@@ -72,15 +75,15 @@ html {
     line-height: 22px;
     text-align: center;
     color: hsla(0, 0%, 100%, 0.6);
-    margin-top: 15px; 
+    margin-bottom: 10px;
 }
 
 .subtitles-container {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
     justify-content: center;
     align-items: center;
+    gap: 25px;
 }
 .div-container {
     display: flex;
@@ -92,7 +95,6 @@ html {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 30px;
     color: white;
 }
 
@@ -115,7 +117,7 @@ html {
     }
     .card { 
         width: min(95%,1025px);
-        height:min(70%,400px);
+        height: 400px;
         background-color: hsl(244, 38%, 16%);
         border-radius: 10px;
         overflow: hidden;
@@ -157,7 +159,8 @@ html {
         color: white;
         font-size: 30px;
         text-align: left;
-        padding-right: 30px;
+        padding-right: 38px;
+        margin-bottom: 10px;
     }
     
     .title span {
@@ -171,16 +174,16 @@ html {
         line-height: 22px;
         text-align: left;
         color: hsla(0, 0%, 100%, 0.6);
-        margin-top: 25px; 
         padding-right: 47px;
+        margin-bottom: 30px;
     }
     
     .subtitles-container {
         display: flex;
         flex-direction: row;
-        margin-top: 1rem;
         justify-content: left;
         align-items: center;
+        margin-top: auto;
     }
 
     .div-container {
@@ -195,7 +198,6 @@ html {
         font-family: 'Inter', sans-serif;
         font-weight: 700;
         font-size: 20px;
-        margin-top: 60px;
         color: white;
     }
     
