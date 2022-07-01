@@ -22,7 +22,7 @@ html {
 
 .card { 
     width: min(80%,320px);
-    height:min(90%,705px);
+    height:90%;
     background-color: hsl(244, 38%, 16%);
     border-radius: 10px;
     overflow: hidden;
