@@ -161,4 +161,21 @@ html {
         margin-right: 30px;
         text-align: left;
     }
+<<<<<<< HEAD
 }
+=======
+    .numbers {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .subtitles {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: hsla(0, 0%, 100%, 0.6);
+    }   
+}
+>>>>>>> 740462bf59eebbaa82e2be11e4d311f4f19ce8bb
